@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif; 
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-family: inherit
+}
+
+.btn_home_img{
+    height: 30px;
+    padding-right: 10px;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #fcfc30;
+    font-size: 75%;
+    z-index: 100;
+    align-content: center;
+    padding-left: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}.header_table{
+    font-size: 10px;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 1px;
+}.header_table td{
+    color: black;
+    padding: 10px;
+}.btn_header_img{
+    height: 18px;
+}.header_table a {
+    text-decoration: none;
+}
+
+.container_content{
+    background-color: #fcfc30;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    max-width: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container_header{
+    background: linear-gradient(1deg, #fcfc30 0%, #cccc1765 100%);
+    padding: 20px;
+}
+
+.div_cadastrar_listagem {
+    display: none;
+    padding: 1px;
+    width: 700px;
+}.div_cadastrar_listagem_table{
+    border: 1px solid black;
+    border-radius: 10px;
+}.div_cadastrar_listagem_table tbody{
+    border-bottom: 0.5px solid #000000;
+    text-align: justify;
+    background-color: #5d70ec;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px;
+    text-transform: uppercase
+}.div_cadastrar_listagem_table tbody td{
+    padding: 5px;
+}.div_cadastrar_listagem_table tbody th {
+    padding: 5px;
+    text-align: center;
+}.div_cadastrar_listagem_table thead th {
+    text-align: center;
+    width: 690px;
+}.div_cadastrar_listagem_table th {
+    border-bottom: 0.5px solid #000000;
+    text-align: left;
+    padding: 5px;
+}.div_cadastrar_listagem_table tbody tr:hover {
+    background-color: #9966ff;
+}#cad_id:hover {
+    background-color: #ff0000;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}#div_cadastrar_listagem_obs{
+    text-align:right;
+    font-style: italic;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+
+
+.form-table{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}.form-table-input{
+    width: 65%;
+}.form-content{
+    position: relative;
+}.form-content label{
+    display: inline-block;
+    margin-bottom: 4px;
+}.form-content input{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    padding: 8px;
+    border: 2px solid #dfdfdf;
+}.form button{
+    font-weight:bold;
+    background-color: #465eff;
+    color: #fff;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}.form-input-alerta input{
+    border: 1px solid crimson;
+}
+
+.div-justificar-renda {
+    display: none;
+}
+
+.btn_href{
+    background-color: transparent;
+    color: #465eff;
+    width: 100%;
+    border: 0px;
+    padding: 0px;
+    font: 40px bolder;
+    cursor: pointer;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn_buscar {
+    font-weight: bold;
+    background-color: #465eff;
+    color: #fff;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#btn_cancelar_update{
+    display: none;
+    font: 12px bolder;
+    background-color: #ff0000;
+    color: #ffffff;
+    width: 10%;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 0;
+}
+
+.btn_consulta{
+    font-weight: bold;
+    background-color: #465eff;
+    color: #fff;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.btn_consulta_edit{
+    font-weight: bold;
+    background-color: #465eff;
+    color: #fff;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.div_table_consulta {
+    position: absolute;
+    bottom: 15%;
+    border-radius: 10px;
+    margin: 10px;
+    max-width: 800px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0%;
+}
+
+.table_consulta {
+    table-layout: fixed;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #5d70ec;
+    color: #fff;
+    font-size: 12px;
+    text-align:justify;
+}
+
+.table_consulta_input{
+    width: 65%;
+    border-bottom: 0.5px solid #fff;
+}
